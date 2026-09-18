@@ -18,20 +18,14 @@ The easiest way to install it is via the Windows Command Prompt or PowerShell:
 ```cmd
 winget install ffmpeg
 ```
-🚀 How to Use
-Download or clone the Batch_HEVC_Converter.bat file to your computer.
+## 🚀 How to Use
+* Download or clone the Batch_HEVC_Converter.bat file to your computer.
+* Highlight the video file(s) you want to convert.
+* Drag the video files and drop them directly onto the .bat file icon.
+* A command window will open, displaying the real-time processing status.
+* Once complete, your new H.265 files will be located in an auto-generated HEVC_Output folder situated in the same directory as the script.
 
-Highlight the video file(s) you want to convert.
-
-Drag the video files and drop them directly onto the .bat file icon.
-
-A command window will open, displaying the real-time processing status.
-
-Once complete, your new H.265 files will be located in an auto-generated HEVC_Output folder situated in the same directory as the script.
-
-🛠️ Customization
-If you need to tweak the conversion parameters, right-click the .bat file and open it in a text editor (like VS Code or Notepad).
-
-To change quality/speed: Modify the -quality speed flag.
-
-NVIDIA Users: If running this on a machine with a secondary NVIDIA GPU, change -c:v hevc_amf to -c:v hevc_nvenc to utilize the NVENC hardware encoder instead.
+## 🛠️ Customization
+* If you need to tweak the conversion parameters, right-click the .bat file and open it in a text editor (like VS Code or Notepad).
+* To change quality/speed: Modify the -quality speed flag.
+* NVIDIA Users: If running this on a machine with a secondary NVIDIA GPU, change -c:v hevc_amf to -c:v hevc_nvenc to utilize the NVENC hardware encoder instead.
